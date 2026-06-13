@@ -3,7 +3,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://xeno-crm-backend-juzy.onrender.com/api';
 
 export default function AIAssistant() {
   const [prompt, setPrompt] = useState('');

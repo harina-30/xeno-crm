@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 app.use(express.json());
 
-const CRM_RECEIPT_URL = 'http://localhost:5000/api/receipt';
+const CRM_RECEIPT_URL = 'https://xeno-crm-backend-juzy.onrender.com/api/receipt';
 
 // Simulate delivery outcomes
 const simulateOutcome = () => {

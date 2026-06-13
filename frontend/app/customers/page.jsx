@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://xeno-crm-backend-juzy.onrender.com/api';
 
 export default function Customers() {
   const [customers, setCustomers] = useState([]);

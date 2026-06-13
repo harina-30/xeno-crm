@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://xeno-crm-backend-juzy.onrender.com/api';
 
 export default function Home() {
   const [stats, setStats] = useState({ customers: 0, campaigns: 0, orders: 0 });

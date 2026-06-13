@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { Suspense } from 'react';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://xeno-crm-backend-juzy.onrender.com/api';
 
 function AnalyticsContent() {
   const [campaigns, setCampaigns] = useState([]);
